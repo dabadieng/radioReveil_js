@@ -1,0 +1,18 @@
+1. Créer une classe Radio qui comprend les attributs suivants :
+- une balise div qui contient tous les éléments HTML de la radio (voir ci-dessous)
+- une balise select pour la liste des stations de radio (voir station.js)
+- une balise audio qui servira à jouer le flux de la radio sélectionnée
+- un bouton btStop : stopper la radio
+- un bouton btPlay : Jouer la radio
+
+Les méthodes de la classe Radio sont :
+- constructor(parent) parent est l'élément parent contenant la div principale de la radio.
+- stop() : stop le son de la radio
+- play() : joue le flux de la station sélectionnée
+- changerStation() qui change la propriété src de l'audio avec la station sélectionnée.
+
+2. Modifier l'horloge-réveil de manière à déclencher la radio quand l'alarme sonne. 
+
+
+
+
